@@ -61,6 +61,10 @@ header input[type="text"]:focus {
     opacity: 1;
 }
 
+header input[type="text"]:focus::placeholder {
+    color: transparent;
+}
+
 main {
     flex: 1 1 100%;
     display: flex;
